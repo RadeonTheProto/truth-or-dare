@@ -1,4 +1,5 @@
 input.onButtonPressed(Button.A, function () {
+    basic.clearScreen()
     if (randint(0, 1) == 0) {
         basic.showString("Truth")
     } else {
